@@ -2,9 +2,14 @@
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-  <!-- wp:paragraph -->
-  <p>Theme is active. Next: build the header, footer, and homepage template.</p>
-  <!-- /wp:paragraph -->
+  <!-- wp:query {"query":{"perPage":10,"postType":"post","order":"desc","orderBy":"date"}} -->
+  <div class="wp-block-query">
+    <!-- wp:post-template -->
+    <!-- wp:post-title {"isLink":true} /-->
+    <!-- wp:post-excerpt /-->
+    <!-- /wp:post-template -->
+  </div>
+  <!-- /wp:query -->
 </main>
 <!-- /wp:group -->
 

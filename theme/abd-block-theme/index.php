@@ -1,3 +1,2 @@
 <?php
-// Block themes can include index.php for compatibility.
-// Templates are handled via templates/*.html.
+// Required for compatibility. Block templates are in /templates.
